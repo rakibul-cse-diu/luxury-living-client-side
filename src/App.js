@@ -5,7 +5,7 @@ import Header from './components/shared/Header/Header';
 
 function App() {
   return (
-    <div className='lg:px-5'>
+    <div>
       <Header />
       <Routes>
         <Route path='/' element={<Home />}></Route>
