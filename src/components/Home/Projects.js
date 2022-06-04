@@ -23,7 +23,8 @@ const Projects = () => {
         <div className='flex flex-col justify-center items-center mt-28'>
             <div>
                 <h4 className='text-secondary text-base font-medium text-center'>Projects</h4>
-                <h1 className='text-secondary text-3xl text-center font-bold'>Discover the latest Interior Design available today</h1>
+                <h1 className='text-secondary text-xl md:text-4xl text-center font-bold mt-3'>Discover the latest Interior Design</h1>
+                <h1 className='text-secondary text-xl md:text-4xl text-center font-bold'>available today</h1>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-3 my-10 lg:px-16'>
                 {
@@ -38,7 +39,7 @@ const Projects = () => {
                             </figure>
                             <div class="card-body">
                                 <h2 class="card-title">{project.name}</h2>
-                                <p>{`${project.description.slice(0, 200)}...`}</p>
+                                <p className='text-base font-light text-[#606268]'>{`${project.description.slice(0, 200)}...`}</p>
                                 <div class="card-actions justify-end">
                                     <button class="btn btn-secondary hover:btn-accent text-base-100">Buy Now</button>
                                 </div>
@@ -46,6 +47,9 @@ const Projects = () => {
                         </div>
                     </>)
                 }
+            </div>
+            <div className='flex flex-col justify-center items-center'>
+                <button className='btn btn-secondary capitalize hover:btn-accent text-base-100'>See all projects</button>
             </div>
         </div>
     );
