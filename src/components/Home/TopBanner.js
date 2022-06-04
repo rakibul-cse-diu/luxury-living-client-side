@@ -11,7 +11,7 @@ const TopBanner = () => {
                     <h1 class="text-5xl font-bold text-secondary w-full lg:w-2/4">We Build Your Dream</h1>
                     <p class="py-6 text-[#606268]">Online Easte Agency, the mordern way to sell your own home,
                         You can use Griffin Residential to market your property</p>
-                    <button class="btn btn-secondary text-base-100">Get Started</button>
+                    <button class="btn btn-secondary hover:btn-accent text-base-100">Get Started</button>
                 </div>
             </div>
         </div>

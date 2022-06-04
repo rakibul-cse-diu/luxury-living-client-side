@@ -11,7 +11,7 @@ const Header = () => {
         <li><Link to="/">Projects</Link></li>
         <li><Link to="/">Contact</Link></li>
         <li class="flex lg:hidden">
-            <Link to="/"><button class="btn bg-secondary text-base-100 text-lg">Login</button></Link>
+            <Link to="/"><button class="btn btn-secondary hover:btn-accent text-base-100 text-lg">Login</button></Link>
         </li>
     </>;
 
@@ -40,7 +40,7 @@ const Header = () => {
                 </ul>
             </div>
             <div class="navbar-end hidden lg:flex">
-                <Link to="/"><button class="btn bg-secondary text-base-100 text-lg">Login</button></Link>
+                <Link to="/"><button class="btn btn-secondary hover:btn-accent text-base-100 text-lg">Login</button></Link>
             </div>
         </div>
     );
